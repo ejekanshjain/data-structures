@@ -3,7 +3,7 @@
   
 using namespace std;
   
-void showdq(deque <int> g)
+void showdqhacktoberfest(deque <int> g)
 {
     deque <int> :: iterator it;
     for (it = g.begin(); it != g.end(); ++it)
@@ -19,7 +19,7 @@ int main()
     gquiz.push_back(30);
     gquiz.push_front(15);
     cout << "The deque gquiz is : ";
-    showdq(gquiz);
+    showdqhacktoberfest(gquiz);
   
     cout << "\ngquiz.size() : " << gquiz.size();
     cout << "\ngquiz.max_size() : " << gquiz.max_size();
@@ -30,11 +30,11 @@ int main()
   
     cout << "\ngquiz.pop_front() : ";
     gquiz.pop_front();
-    showdq(gquiz);
+    showdqhacktoberfest(gquiz);
   
     cout << "\ngquiz.pop_back() : ";
     gquiz.pop_back();
-    showdq(gquiz);
+    showdqhacktoberfest(gquiz);
   
     return 0;
 }
